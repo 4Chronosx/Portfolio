@@ -1,0 +1,152 @@
+{
+  "site": {
+    "title": "4Chronosx - Portfolio"
+  },
+  "navbar": [
+    {
+      "label": "About",
+      "href": "#welcome-section"
+    },
+    {
+      "label": "Work",
+      "href": "#projects"
+    },
+    {
+      "label": "Stack",
+      "href": "#tech-stack-section"
+    },
+    {
+      "label": "Wins",
+      "href": "#achievements-section"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact-section"
+    }
+  ],
+  "welcome": {
+    "heading": "Hi, I am Christian",
+    "subheading": "A web Developer"
+  },
+  "projects": {
+    "heading": "These are some of my projects",
+    "showAll": {
+      "label": "Show All",
+      "href": "#projects"
+    },
+    "items": [
+      {
+        "title": "NextStop",
+        "demolink": "https://next-stop-chi.vercel.app/",
+        "github": "https://github.com/4Chronosx/NextStop",
+        "images": ["src/assets/projects/nextstop/0.png", "src/assets/projects/nextstop/1.png", "src/assets/projects/nextstop/2.png", "src/assets/projects/nextstop/3.png"],
+        "description": "An AI-powered travel planning web application that generates personalized itineraries based on user preferences, trip duration, and budget constraints. Developed a fully responsive frontend using React and Next.js, emphasizing performance and clean UI/UX design. Integrated the OpenAI API to build a context-aware chatbot capable of dynamic itinerary generation and natural language interaction. Implemented structured prompt handling and response parsing to ensure relevant, high-quality recommendations.",
+        "tech": ["React", "Next.js", "TypeScript", "OpenAI API", "Tailwind CSS"]
+      },
+      {
+        "title": "drAIn",
+        "demolink": "https://ai-drain.vercel.app/",
+        "github": "https://github.com/kiloumanjaro/drAIn",
+        "images": ["src/assets/projects/drain/0.png", "src/assets/projects/drain/1.png", "src/assets/projects/drain/2.png", "src/assets/projects/drain/3.png", "src/assets/projects/drain/4.png"],
+        "description": "A data science and AI-driven platform for urban drainage modeling and flood resilience optimization. Engineered the backend simulation system using Next.js, enabling the processing of geospatial datasets and real-world environmental inputs. Contributed to the machine learning pipeline for predictive analytics, helping forecast drainage performance under varying conditions. Designed system components to support scalability, modular computation, and integration with visualization layers.",
+        "tech": ["Next.js", "Node.js", "Python", "Machine Learning", "GIS", "Data Analytics"]
+      },
+      {
+        "title": "Geopoint",
+        "demolink": "",
+        "github": "https://github.com/4Chronosx/Geopoint-Frontend",
+        "images": [],
+        "description": "A full-stack IP geolocation platform that provides real-time IP tracking, visualization, and history management. Built a React-based frontend with interactive map integration and dynamic UI updates. Developed a RESTful backend using Node.js and Express to handle authentication, session management, and full CRUD operations on user data. Integrated third-party geolocation APIs for accurate IP lookup and implemented features such as input validation, multi-select history deletion, and persistent user activity logs.",
+        "tech": ["React", "Node.js", "Express", "Supabase", "REST API", "Geolocation API"]
+      },
+      {
+        "title": "Stasis",
+        "demolink": "",
+        "github": "https://github.com/kiloumanjaro/stasisv1",
+        "images": ["src/assets/projects/stasis/0.png", "src/assets/projects/stasis/1.png", "src/assets/projects/stasis/2.png", "src/assets/projects/stasis/3.png", "src/assets/projects/stasis/4.png", "src/assets/projects/stasis/5.png"],
+        "description": "An AI-powered, emotion-aware learning platform designed to enhance student productivity and well-being. Contributed to the integration of real-time facial emotion detection using face-api.js, enabling the system to adapt content and feedback based on user emotional states. Worked on incorporating computer vision models into a web-based application, ensuring efficient processing and responsiveness. Focused on bridging AI capabilities with user-centric design for personalized learning experiences.",
+        "tech": ["Next.js", "JavaScript", "face-api.js", "Computer Vision", "AI"]
+      }
+    ]
+  },
+  "techStack": {
+    "heading": "Tech Stack",
+    "items": [
+      { "name": "React",        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+      { "name": "Next.js",      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", "filter": "brightness(0) invert(1)" },
+      { "name": "TypeScript",   "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+      { "name": "JavaScript",   "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+      { "name": "Tailwind CSS", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+      { "name": "HTML/CSS",     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+      { "name": "Flutter",      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" },
+      { "name": "Dart",         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" },
+      { "name": "Node.js",      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+      { "name": "Express",      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", "filter": "brightness(0) invert(1)" },
+      { "name": "FastAPI",      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" },
+      { "name": ".NET",         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" },
+      { "name": "Python",       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+      { "name": "C#",           "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" },
+      { "name": "C",            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
+      { "name": "C++",          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+      { "name": "Supabase",     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" },
+      { "name": "Prisma",       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg", "filter": "brightness(0) invert(1)" },
+      { "name": "SQL Server",   "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" },
+      { "name": "PostgreSQL",   "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+      { "name": "Git",          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+      { "name": "GitHub",       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", "filter": "brightness(0) invert(1)" },
+      { "name": "Docker",       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+      { "name": "Jira",         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
+      { "name": "VS Code",      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+      { "name": "Vercel",       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg", "filter": "brightness(0) invert(1)" },
+      { "name": "Google OAuth", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" }
+    ]
+  },
+  "achievements": {
+    "heading": "Achievements",
+    "subheading": "Hackathon wins, awards, and highlights.",
+    "items": [
+      {
+        "title": "Champion",
+        "event": "Philippine Junior Data Science Challenge",
+        "date": "2025",
+        "images": ["src/assets/achievements/pjdsc/1.jpg", "src/assets/achievements/pjdsc/2.png", "src/assets/achievements/pjdsc/3.png", "src/assets/achievements/pjdsc/4.png"],
+        "description": "Developed an AI-powered urban drainage modeling system focused on flood resilience and environmental sustainability.",
+        "details": "Won 1st place in a national-level data science competition centered on “Atmospheric Resilience.” Collaborated in a team to design and implement a full-stack solution integrating geospatial data and machine learning models to simulate and predict drainage system performance. Contributed to backend engineering and predictive analytics pipeline, enabling data-driven decision-making for flood risk mitigation. Evaluated based on innovation, technical complexity, real-world applicability, and presentation."
+      },
+      {
+        "title": "First Runner-Up",
+        "event": "Philtech AI for U Innovathon",
+        "date": "2026",
+        "images": ["src/assets/achievements/philtech/1.jpg", "src/assets/achievements/philtech/2.png", "src/assets/achievements/philtech/3.png", "src/assets/achievements/philtech/4.png"],
+        "description": "Developed an AI-driven solution addressing real-world challenges through rapid prototyping and collaborative innovation.",
+        "details": "Secured 2nd place in a competitive, multi-day innovation hackathon held in Bonifacio Global City. Worked in a cross-functional team to conceptualize, design, and prototype a technology-driven solution under time constraints. Focused on integrating AI capabilities into a scalable application while maintaining usability and practical relevance. Judged on creativity, execution, teamwork, and presentation quality."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's work together",
+    "subheading": "How do you like your coffee?",
+    "links": [
+      
+      {
+        "label": "GitHub",
+        "href": "https://github.com/4Chronosx",
+        "iconClass": "fa-github",
+        "containerClass": "git"
+      },
+      {
+        "label": " Linked in",
+        "href": "https://www.linkedin.com/in/christian-bayadog-a967ab314/",
+        "iconClass": "fa-linkedin",
+        "containerClass": "ig"
+      },
+      {
+        "label": "Email",
+        "href": "mailto:christianjamezz5@gmail.com",
+        "iconClass": "fa-envelope",
+        "containerClass": "mail"
+      }
+      
+    ]
+  }
+}
