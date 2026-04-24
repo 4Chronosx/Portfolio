@@ -828,9 +828,9 @@ html {
 
 @media only screen and (max-width: 780px) {
   .stack-collage {
-    transform: scale(0.6);
+    transform: scale(0.7);
     transform-origin: top center;
-    margin-bottom: -288px;
+    margin-bottom: -216px;
   }
 
   .carousel-wrapper {
@@ -841,15 +841,37 @@ html {
   .carousel-next { right: -3rem; }
 }
 
+@media only screen and (max-width: 600px) {
+  .stack-collage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.6rem;
+    margin: 2rem auto 0;
+    padding: 1rem 0.5rem;
+    transform: none;
+    margin-bottom: 0;
+  }
+
+  .stack-item-wrapper {
+    position: static;
+    transform: none;
+  }
+
+  .stack-item-wrapper:hover {
+    transform: scale(1.2);
+  }
+
+  .stack-item-wrapper.size-lg .stack-logo { width: 52px; height: 52px; }
+  .stack-item-wrapper.size-md .stack-logo { width: 44px; height: 44px; }
+  .stack-item-wrapper.size-sm .stack-logo { width: 36px; height: 36px; }
+}
+
 @media only screen and (max-width: 550px) {
   html {
     font-size: 8px;
-  }
-
-  .stack-collage {
-    transform: scale(0.42);
-    transform-origin: top center;
-    margin-bottom: -418px;
   }
 
   .carousel-wrapper {
