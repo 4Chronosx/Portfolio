@@ -53,9 +53,9 @@
       },
       {
         "title": "Geopoint",
-        "demolink": "",
+        "demolink": "https://geopoint-frontend.vercel.app/",
         "github": "https://github.com/4Chronosx/Geopoint-Frontend",
-        "images": [],
+        "images": ["src/assets/projects/geopoint/0.png", "src/assets/projects/geopoint/1.png"],
         "description": "A full-stack IP geolocation platform that provides real-time IP tracking, visualization, and history management. Built a React-based frontend with interactive map integration and dynamic UI updates. Developed a RESTful backend using Node.js and Express to handle authentication, session management, and full CRUD operations on user data. Integrated third-party geolocation APIs for accurate IP lookup and implemented features such as input validation, multi-select history deletion, and persistent user activity logs.",
         "tech": ["React", "Node.js", "Express", "Supabase", "REST API", "Geolocation API"]
       },
