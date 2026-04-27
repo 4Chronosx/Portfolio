@@ -66,6 +66,17 @@
         "images": ["src/assets/projects/stasis/0.png", "src/assets/projects/stasis/1.png", "src/assets/projects/stasis/2.png", "src/assets/projects/stasis/3.png", "src/assets/projects/stasis/4.png", "src/assets/projects/stasis/5.png"],
         "description": "An AI-powered, emotion-aware learning platform designed to enhance student productivity and well-being. Contributed to the integration of real-time facial emotion detection using face-api.js, enabling the system to adapt content and feedback based on user emotional states. Worked on incorporating computer vision models into a web-based application, ensuring efficient processing and responsiveness. Focused on bridging AI capabilities with user-centric design for personalized learning experiences.",
         "tech": ["Next.js", "JavaScript", "face-api.js", "Computer Vision", "AI"]
+      },
+      {
+        "title": "Todolist",
+        "demolink": "https://mytodolist-aac6.onrender.com/",
+        "github": "https://github.com/4Chronosx/Todolist",
+        "images": [
+          "src/assets/projects/todolist/0.png",
+          "src/assets/projects/todolist/1.png"
+        ],
+        "description": "Developed a full-stack task tracking web application using Blazor and ASP.NET Core Minimal APIs, implementing end-to-end CRUD operations, search and filtering, theme toggling, and seamless API integration backed by an in-memory EF Core database.",
+        "tech": ["Blazor", "ASP.NET Core", "Minimal APIs", "Entity Framework Core", "C#"]
       }
     ]
   },
